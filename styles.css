@@ -1,0 +1,245 @@
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #1F2937;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.header-nav a {
+  color: #E5E7EB;
+  margin-left: 20px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Hero section styling */
+/* Hero Section Styling */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: #1F2937; /* Dark background color */
+  color: #F9FAF8; /* Light color for text */
+}
+
+.hero-content {
+  max-width: 50%; /* Limits width of text content to 50% of container */
+}
+
+/* Main title styling */
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin-bottom: 15px;
+}
+
+/* Subtext styling */
+.hero-content p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 20px;
+}
+
+/* Sign-up button styling */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-text p {
+  color: #E5E7EB;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.cta-button {
+  background-color: #3882F6;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 400px; 
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: #E5E7EB; 
+}
+
+
+
+/* -------------------------------------------------- */
+/* General Info Section Styling */
+.info-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #E5E7EB; 
+}
+
+.info-section h2 {
+  font-size: 32px;
+  color: #1F2937; 
+  margin-bottom: 30px;
+}
+
+/* Card Container Styling */
+.info-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual Card Styling */
+.info-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB; /* Light border color for a subtle outline */
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px; /* Adjust width as needed */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+/* Card Icon Styling */
+.card-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+  border-radius: 50%; /* Make icon round */
+  background-color: #F9FAF8; /* Icon background for contrast */
+  padding: 10px;
+}
+
+/* Card Title Styling */
+.info-card h3 {
+  font-size: 20px;
+  color: #1F2937; /* Dark color */
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+/* Card Description Styling */
+.info-card p {
+  font-size: 14px;
+  color: #4A5568; /* Slightly lighter text color for description */
+  line-height: 1.5;
+}
+
+
+
+/* Quote section styling */
+.quote-section {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  text-align: center;
+  padding: 40px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote-author {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* CTA Section Styling */
+.cta-section {
+  background-color: #3882F6; /* Blue background color */
+  padding: 40px 20px;
+  text-align: center;
+  color: #FFFFFF; /* White text color */
+}
+
+/* Center and style the CTA content */
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* CTA Heading */
+.cta-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #FFFFFF; /* White text for the heading */
+}
+
+/* CTA Paragraph */
+.cta-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #F9FAF8; /* Slightly off-white for paragraph text */
+}
+
+/* CTA Button */
+.cta-button {
+  background-color: #FFFFFF; /* White background */
+  color: #3882F6; /* Blue text */
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button hover effect */
+.cta-button:hover {
+  background-color: #E5E7EB; /* Light grey on hover */
+  color: #1F2937; /* Dark text color on hover */
+}
+
+/* Footer styling */
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
